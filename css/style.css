@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(/pictures/DALL·E\ 2023-03-03\ 23.21.45\ -\ A\ modern\ and\ beautiful\ background\ photo\ for\ a\ then\ website\ design.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    color: white;
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+main{
+    margin: 0rem 2rem 0rem 2rem;
+}
+
+.head_text{
+    margin: 15.8rem 0rem 0rem 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0%;
+}
+
+.copyright{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+}
+
+
+/* responsive styles for max 880px devices */
+
+
+@media screen and (max-width: 880px){
+    
+    body{
+        background-image: url(/pictures/DALL·E\ 2023-03-03\ 23.21.45\ -\ A\ modern\ and\ beautiful\ background\ photo\ for\ a\ then\ website\ design.png);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    
+    header{
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        color: white;
+        padding: 1rem 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items:center ;
+    }
+    
+    .title{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+    
+    main{
+        margin: 0rem 1rem 0rem 1rem;
+    }
+
+    .head_text{
+        margin: 5rem 0rem 0rem 0rem;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2rem;
+        font-weight: bold;
+        color: white;
+    }
+    
+    footer{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        bottom: 0%;
+    }
+    
+    .copyright{
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        padding: 1rem 1rem;
+    }
+}
+
+
+/* responsive styles for max 600px devices */
+
+
+@media screen and (max-width: 600px){
+    
+    body{
+        background-image: url(/pictures/DALL·E\ 2023-03-03\ 23.21.45\ -\ A\ modern\ and\ beautiful\ background\ photo\ for\ a\ then\ website\ design.png);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    
+    header{
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        color: white;
+        padding: 1rem 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items:center ;
+    }
+    
+    .title{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    .navigation{
+        list-style: none;
+        text-transform: uppercase;
+        margin-right: 0rem;
+    }
+    
+    .navigation li{
+        display: inline-block;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.7rem;
+        font-weight: normal;
+        margin-inline-start: 0.5rem;
+    }
+    
+    .navigation a{
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+    }
+    
+    main{
+        margin: 0rem 1rem 0rem 1rem;
+    }
+
+    .head_text{
+        margin: 5rem 0rem 0rem 0rem;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2rem;
+        font-weight: bold;
+        color: white;
+    }
+    
+    footer{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        bottom: 0%;
+    }
+    
+    .copyright{
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.7rem;
+        padding: 1rem 1rem;
+    }
+}
+
+
+/* responsive styles for max 400px devices */
+
+
+@media screen and (max-width: 400px){
+    
+    body{
+        background-image: url(/pictures/DALL·E\ 2023-03-03\ 23.21.45\ -\ A\ modern\ and\ beautiful\ background\ photo\ for\ a\ then\ website\ design.png);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    
+    header{
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        color: white;
+        padding: 1rem 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .title{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+    .navigation{
+        list-style: none;
+        text-transform: uppercase;
+        margin-right: 0rem;
+    }
+    
+    .navigation li{
+        display: inline-block;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.6rem;
+        font-weight: normal;
+        margin-inline-start: 0.2rem;
+    }
+    
+    .navigation a{
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+    }
+    
+    main{
+        margin: 0rem 1rem 0rem 1rem;
+    }
+
+    .head_text{
+        margin: 5rem 0rem 0rem 0rem;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2rem;
+        font-weight: bold;
+        color: white;
+    }
+    
+    footer{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        bottom: 0%;
+    }
+    
+    .copyright{
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.6rem;
+        padding: 1rem 1rem;
+    }
+}
