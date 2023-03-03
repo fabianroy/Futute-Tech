@@ -1,0 +1,97 @@
+.navigation{
+    list-style: none;
+    text-transform: uppercase;
+    margin-right: 2rem;
+}
+
+.navigation li{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: normal;
+    margin-inline-start: 2rem;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* responsive styles for max 880px devices */
+
+
+@media screen and (max-width: 880px){
+    .navigation{
+        list-style: none;
+        text-transform: uppercase;
+        margin-right: 0rem;
+    }
+    
+    .navigation li{
+        display: inline-block;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        font-weight: normal;
+        margin-inline-start: 0.5rem;
+    }
+    
+    .navigation a{
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+    }
+}
+
+
+/* responsive styles for max 600px devices */
+
+
+@media screen and (max-width: 600px){
+    .navigation{
+        list-style: none;
+        text-transform: uppercase;
+        margin-right: 0rem;
+    }
+    
+    .navigation li{
+        display: inline-block;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.7rem;
+        font-weight: normal;
+        margin-inline-start: 0.5rem;
+    }
+    
+    .navigation a{
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+    }
+}
+
+
+/* responsive styles for max 400px devices */
+
+
+@media screen and (max-width: 400px){
+    .navigation{
+        list-style: none;
+        text-transform: uppercase;
+        margin-right: 0rem;
+    }
+    
+    .navigation li{
+        display: inline-block;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.6rem;
+        font-weight: normal;
+        margin-inline-start: 0.2rem;
+    }
+    
+    .navigation a{
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+    }
+}
