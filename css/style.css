@@ -11,7 +11,7 @@ html{
 }
 
 body{
-    background-image: url(/pictures/DALL·E\ 2023-03-03\ 23.21.45\ -\ A\ modern\ and\ beautiful\ background\ photo\ for\ a\ then\ website\ design.png);
+    background-image: url(/images/DALL·E\ 2023-03-03\ 23.21.45\ -\ A\ modern\ and\ beautiful\ background\ photo\ for\ a\ then\ website\ design.png);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -67,7 +67,7 @@ footer{
 @media screen and (max-width: 880px){
     
     body{
-        background-image: url(/pictures/DALL·E\ 2023-03-03\ 23.21.45\ -\ A\ modern\ and\ beautiful\ background\ photo\ for\ a\ then\ website\ design.png);
+        background-image: url(/images/DALL·E\ 2023-03-03\ 23.21.45\ -\ A\ modern\ and\ beautiful\ background\ photo\ for\ a\ then\ website\ design.png);
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -125,7 +125,7 @@ footer{
 @media screen and (max-width: 600px){
     
     body{
-        background-image: url(/pictures/DALL·E\ 2023-03-03\ 23.21.45\ -\ A\ modern\ and\ beautiful\ background\ photo\ for\ a\ then\ website\ design.png);
+        background-image: url(/images/DALL·E\ 2023-03-03\ 23.21.45\ -\ A\ modern\ and\ beautiful\ background\ photo\ for\ a\ then\ website\ design.png);
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -203,7 +203,7 @@ footer{
 @media screen and (max-width: 400px){
     
     body{
-        background-image: url(/pictures/DALL·E\ 2023-03-03\ 23.21.45\ -\ A\ modern\ and\ beautiful\ background\ photo\ for\ a\ then\ website\ design.png);
+        background-image: url(/images/DALL·E\ 2023-03-03\ 23.21.45\ -\ A\ modern\ and\ beautiful\ background\ photo\ for\ a\ then\ website\ design.png);
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
